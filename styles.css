@@ -1,0 +1,139 @@
+*{
+  padding:0;
+  margin:0;
+}
+/*body{
+	background: no-repeat;
+	display: inline;
+	list-style: none;
+text-decoration-style:solid;
+}*/
+@media only screen and (max-width:200px){
+body{
+ background:#fff;
+}
+}
+h1{
+  color:green;
+  background-color:nude;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: right;
+}
+main{
+  display:flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #666;
+}
+/*here i want to style my footer*/
+.footer{
+  color:white;
+ height:20px;
+	width: 100%;
+background:#500;
+text-align:center;
+background-color:black;
+}
+/*here i want to style my container*/
+.cont{
+  height: 700px;
+    background-image:url("https://www.franceastro.com/wp-content/uploads/rever-de-restaurant.jpg");
+     padding-bottom:100px;
+    background-color:white;
+}
+.cont p{
+    text-align:center;
+    text-decoration-style:solid;
+    color: purple;
+    height:200px;
+    width:100%;
+    padding-bottom:100px;
+     font-style: oblique;
+     font-size: 80px;
+}
+
+.aboutus{
+  background:#fff;
+   background-color:white;
+   font-size: 20px;
+}
+
+#services{
+  background-color:#fff;
+}
+#services p{
+   font-size: 20px;
+    background-color:#fff;
+}
+#services ol li{
+  float: left;
+  margin-left:20px;
+  padding:0;
+  color:#003399;
+}
+
+table, th, td {
+   border: 1px solid black;
+   float:centre;
+}  
+
+.menu2 h2{
+   font-size: 20px;
+    text-align:center;
+    margin-top:100px;
+    color:#6600cc;
+    height:200px;
+    width:100%;
+    padding-bottom:100px;
+     font-style: oblique;
+     font-size: 80px;
+    
+}
+.menu2 img{
+   float:left;
+   margin-left:300px;
+  padding:0;
+ position: absolute;
+   }
+
+.aboutus ul li a:hover{
+   color:#ff0066;
+}
+
+#healthy p{
+  text-align:centre;
+  color:#003399;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border-style: dotted solid double;
+  margin-left:400px;
+  margin-bottom:30px;
+ width:300px;
+ padding-left:70px;
+  
+
+}
+
+
+  
+
+

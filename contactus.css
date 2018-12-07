@@ -1,0 +1,41 @@
+here i want to
+table, th, td {
+   border: 1px solid black;
+   float:centre;
+  
+}
+
+.ffff{
+  display: block;
+   color:#fff;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration:#fff;
+  background:#000;
+ 
+}
+.ffff li{
+  
+  display:inline-block;
+
+} 
+
+
+div{
+  padding:10px;
+  margin:40px;
+  background-color:green; 
+  width:60px;
+  height:60px;
+  
+}
+.main{
+  display:flex;
+   flex-direction:row;
+
+}
+
+conta ul li a:hover{
+  background-color:#000000;
+  text-align:right;
+}
